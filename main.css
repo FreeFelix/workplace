@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #6495ed;
+    color: white;
+    font-family: helvetica,Arial;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.includer {
+    height: 100vh;
+    width: 100vm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+span {
+    font-size: 100px;
+    padding: 10px;
+}
+.btn {
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
